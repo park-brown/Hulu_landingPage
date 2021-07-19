@@ -149,6 +149,15 @@ theme.typography = {
 			letterSpacing: '.007em'
 		}
 	},
+	Ribbon_eyebrow: {
+		[theme.breakpoints.up('mobile')]: {
+			fontSize: '12px',
+			lineHeight: '13px',
+			fontWeight: 600,
+			letterSpacing: '0.5px',
+			color: '#00ED82'
+		}
+	},
 	headline: {
 		[theme.breakpoints.up('mobile')]: {
 			fontSize: '32px',
@@ -167,6 +176,35 @@ theme.typography = {
 			lineHeight: 1.08349,
 			fontWeight: 600,
 			letterSpacing: '-.003em'
+		}
+	},
+	hero_subheadline: {
+		[theme.breakpoints.up('mobile')]: {
+			fontSize: '18px',
+			lineHeight: '24px',
+			fontWeight: 600
+		},
+		[theme.breakpoints.up('tablet')]: {
+			fontSize: '22px',
+			lineHeight: '30px',
+			fontWeight: 600
+		}
+	},
+	hero_secondaryMessage: {
+		[theme.breakpoints.up('mobile')]: {
+			fontSize: '14px',
+			lineHeight: '21px',
+			fontWeight: 400
+		},
+		[theme.breakpoints.up('tablet')]: {
+			fontSize: '14px',
+			lineHeight: '21px',
+			fontWeight: 400
+		},
+		[theme.breakpoints.up('laptop')]: {
+			fontSize: '16px',
+			lineHeight: '26px',
+			fontWeight: 400
 		}
 	},
 	section_headline: {
@@ -328,6 +366,13 @@ theme.typography = {
 			lineHeight: 1.381,
 			fontWeight: 400,
 			letterSpacing: '.011em'
+		}
+	},
+	disclaimer: {
+		[theme.breakpoints.up('mobile')]: {
+			fontSize: '10px',
+			lineHeight: '16px',
+			fontWeight: 400
 		}
 	}
 };
