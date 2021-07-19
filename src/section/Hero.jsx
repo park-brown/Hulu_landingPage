@@ -63,6 +63,15 @@ const BundleButton = styled(Button, { name: 'bundle-button' })(({ theme }) => ({
 		}
 	}
 }));
+const Overlay = styled(Box, { name: 'hero-top-overlay' })(() => ({
+	content: '""',
+	position: 'absolute',
+	width: '100%',
+	height: '180px',
+	top: 0,
+	left: 0,
+	background: 'linear-gradient(180deg, rgba(0,0,0,0.76) 15.54%, rgba(0,0,0,0.192) 60.23%, rgba(0,0,0,8e-05) 100%)'
+}));
 const Hero = () => {
 	return (
 		<Box
@@ -73,6 +82,7 @@ const Hero = () => {
 				overflow: 'hidden',
 				position: 'relative'
 			}}>
+			<Overlay />
 			<BackgroundImage component='figure' />
 			<Box
 				className='hero-content'
