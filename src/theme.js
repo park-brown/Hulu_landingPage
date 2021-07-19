@@ -129,6 +129,41 @@ theme.typography = {
 			letterSpacing: '.009em'
 		}
 	},
+	library_eyebrow: {
+		[theme.breakpoints.up('mobile')]: {
+			fontSize: '12px',
+			lineHeight: '12px',
+			fontWeight: 600,
+			letterSpacing: '0.86px',
+			color: '#00ED82'
+		}
+	},
+	library_title: {
+		[theme.breakpoints.up('mobile')]: {
+			fontSize: '24px',
+			lineHeight: '44px',
+			fontWeight: 800
+		},
+		[theme.breakpoints.up('tablet')]: {
+			fontSize: '42px',
+			lineHeight: '70px',
+			fontWeight: 800,
+			letterSpacing: '-0.5px'
+		},
+		[theme.breakpoints.up('laptop')]: {
+			fontSize: '48px',
+			lineHeight: '53px',
+			fontWeight: 800,
+			letterSpacing: '-0.5px'
+		}
+	},
+	library_discription: {
+		[theme.breakpoints.up('mobile')]: {
+			fontSize: '16px',
+			lineHeight: '24px',
+			fontWeight: 400
+		}
+	},
 	eyebrow_elevated: {
 		[theme.breakpoints.up('mobile')]: {
 			fontSize: '21px',
@@ -373,6 +408,20 @@ theme.typography = {
 			fontSize: '10px',
 			lineHeight: '16px',
 			fontWeight: 400
+		}
+	},
+	library_item_eyebrow: {
+		[theme.breakpoints.up('mobile')]: {
+			fontSize: '16px',
+			lineHeight: '21px',
+			fontWeight: 400
+		}
+	},
+	library_item_category: {
+		[theme.breakpoints.up('mobile')]: {
+			fontSize: '24px',
+			lineHeight: '24px',
+			fontWeight: 700
 		}
 	}
 };
