@@ -47,7 +47,10 @@ const Gradient = styled(Box, { name: 'library-overlay' })(() => ({
 }));
 const Library = () => {
 	return (
-		<Box className='library' sx={{ width: '100%', position: 'relative', backgroundColor: '#000' }}>
+		<Box
+			className='library-section'
+			component='section'
+			sx={{ width: '100%', position: 'relative', backgroundColor: '#000' }}>
 			<Box
 				className='library-header'
 				sx={{
@@ -99,7 +102,7 @@ const Library = () => {
 							borderRadius: '8px'
 						}}>
 						<Gradient />
-						<Box className='item-title' sx={{ position: 'absolute', top: 0, left: 0, padding: '25px' }}>
+						<Box className='item-title' sx={{ position: 'absolute', top: 0, left: 0, padding: '25px', color: '#fff' }}>
 							<Typography variant='library_item_eyebrow' component='h6' sx={{ mb: '10px' }}>
 								Past & Current Seasons
 							</Typography>
@@ -123,7 +126,7 @@ const Library = () => {
 							borderRadius: '8px'
 						}}>
 						<Gradient />
-						<Box className='item-title' sx={{ position: 'absolute', top: 0, left: 0, padding: '25px' }}>
+						<Box className='item-title' sx={{ position: 'absolute', top: 0, left: 0, padding: '25px', color: '#fff' }}>
 							<Typography variant='library_item_eyebrow' component='h6' sx={{ mb: '10px' }}>
 								New & Classic
 							</Typography>
@@ -147,7 +150,7 @@ const Library = () => {
 							borderRadius: '8px'
 						}}>
 						<Gradient />
-						<Box className='item-title' sx={{ position: 'absolute', top: 0, left: 0, padding: '25px' }}>
+						<Box className='item-title' sx={{ position: 'absolute', top: 0, left: 0, padding: '25px', color: '#fff' }}>
 							<Typography variant='library_item_eyebrow' component='h6' sx={{ mb: '10px' }}>
 								GroundBreaking
 							</Typography>
@@ -171,7 +174,7 @@ const Library = () => {
 							borderRadius: '8px'
 						}}>
 						<Gradient />
-						<Box className='item-title' sx={{ position: 'absolute', top: 0, left: 0, padding: '25px' }}>
+						<Box className='item-title' sx={{ position: 'absolute', top: 0, left: 0, padding: '25px', color: '#fff' }}>
 							<Typography variant='library_item_eyebrow' component='h6' sx={{ mb: '10px' }}>
 								Add-on
 							</Typography>

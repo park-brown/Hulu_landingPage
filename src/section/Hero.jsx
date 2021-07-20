@@ -75,7 +75,8 @@ const Overlay = styled(Box, { name: 'hero-top-overlay' })(() => ({
 const Hero = () => {
 	return (
 		<Box
-			className='hero-container'
+			className='hero-section'
+			component='section'
 			sx={{
 				width: '100%',
 				height: '660px',

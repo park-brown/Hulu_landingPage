@@ -423,6 +423,40 @@ theme.typography = {
 			lineHeight: '24px',
 			fontWeight: 700
 		}
+	},
+	plan_head_title: {
+		[theme.breakpoints.up('mobile')]: {
+			fontSize: '28px',
+			lineHeight: '31px',
+			fontWeight: 700,
+			letterSpacing: '-0.5px'
+		}
+	},
+	plan_card_option_title: {
+		[theme.breakpoints.up('mobile')]: {
+			fontSize: '14px',
+			lineHeight: '20px',
+			fontWeight: 700,
+			letterSpacing: '-0.5px',
+			color: '#292C33'
+		},
+		[theme.breakpoints.up('tablet')]: {
+			fontSize: '20px',
+			lineHeight: '31px',
+			fontWeight: 700,
+			letterSpacing: '-0.5px',
+			color: '#292C33'
+		}
+	},
+	plan_card_option_eyebrow: {
+		[theme.breakpoints.up('mobile')]: {
+			fontSize: '12px',
+			lineHeight: '13px',
+			fontWeight: 600,
+			letterSpacing: '-0.5px',
+			color: '#888',
+			textTransform: 'uppercase'
+		}
 	}
 };
 
