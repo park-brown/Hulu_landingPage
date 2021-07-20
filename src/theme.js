@@ -50,13 +50,16 @@ const coef = fontSize / 16;
 theme.typography = {
 	pxToRem: (size) => `${(size / htmlFontSize) * coef}rem`,
 	body: {
-		fontSize: '17px',
-		lineHeight: 1.47059,
+		fontSize: '1rem',
+		lineHeight: 1.5,
 		fontWeight: 400,
 		letterSpacing: '-.022em',
+		fontFamily: 'Graphik, Helvetica, Arial, sans-serif',
+		backgroundColor: '#f5f6f7',
+		color: '#292b2c',
 		fontStyle: 'normal',
-		color: '#1d1d1f',
-		fontFamily: ['SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'].join(',')
+		margin: 0,
+		padding: 0
 	},
 	body_reduced: {
 		[theme.breakpoints.up('mobile')]: {

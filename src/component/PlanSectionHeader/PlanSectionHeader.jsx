@@ -13,6 +13,7 @@ const PlanHeader = styled(Box, { name: 'plan-header' })(({ theme, elevation }) =
 		position: 'sticky',
 		top: 0,
 		left: 0,
+		zIndex: 10,
 		boxShadow: `${elevation === 1 ? '0px 2px 1px -1px rgb(0 0 0 / 20%)' : 'none'}`
 	},
 	[theme.breakpoints.up('laptop')]: {
