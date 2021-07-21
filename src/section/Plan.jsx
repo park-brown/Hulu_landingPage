@@ -83,7 +83,7 @@ const Plan = (props) => {
 	const toggleAddon = () => {
 		setIsAddonOpen((previous) => !previous);
 	};
-	console.log('isAddonOpen:', isAddonOpen);
+
 	return (
 		<Box
 			className='plan-section'
