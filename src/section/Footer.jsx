@@ -59,7 +59,7 @@ const AboutAdsImage = styled('figure', { name: 'about-ads-image' })(({ theme }) 
 const Footer = () => {
 	const theme = useTheme();
 	const below_768 = useMediaQuery(theme.breakpoints.down('tablet'));
-	console.log('below_768:', below_768);
+
 	return (
 		<Box component='footer' sx={{ backgroundColor: '#EBEDF2', width: '100%' }}>
 			<Container>
@@ -113,7 +113,7 @@ const Footer = () => {
 							margin: '0 0 32px 0'
 						}}>
 						<LegalLink>© 2021 Hulu, LLC</LegalLink>
-						<LegalLink>
+						<LegalLink component='div'>
 							<AboutAdsImage /> About Ads
 						</LegalLink>
 						<LegalLink>Term of Use</LegalLink>
